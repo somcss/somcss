@@ -139,6 +139,69 @@ function generateSomaliCss(translation) {
     css += `.${translation['border-radius']}-${key} { border-radius: ${value}; }\n`;
   }
 
+  // Text alignment utilities
+  css += `.${translation['text-left']} { text-align: left; }\n`;
+  css += `.${translation['text-center']} { text-align: center; }\n`;
+  css += `.${translation['text-right']} { text-align: right; }\n`;
+  css += `.${translation['text-justify']} { text-align: justify; }\n`;
+
+  // Display utilities
+  css += `.${translation['display-block']} { display: block; }\n`;
+  css += `.${translation['display-inline-block']} { display: inline-block; }\n`;
+  css += `.${translation['display-inline']} { display: inline; }\n`;
+  css += `.${translation['display-none']} { display: none; }\n`;
+
+  // Font style utilities
+  css += `.${translation['italic']} { font-style: italic; }\n`;
+  css += `.${translation['normal']} { font-style: normal; }\n`;
+
+  // Text transform utilities
+  css += `.${translation['uppercase']} { text-transform: uppercase; }\n`;
+  css += `.${translation['lowercase']} { text-transform: lowercase; }\n`;
+  css += `.${translation['capitalize']} { text-transform: capitalize; }\n`;
+
+  // Overflow utilities
+  css += `.${translation['overflow-hidden']} { overflow: hidden; }\n`;
+  css += `.${translation['overflow-scroll']} { overflow: scroll; }\n`;
+  css += `.${translation['overflow-auto']} { overflow: auto; }\n`;
+
+  // Opacity utilities
+  css += `.${translation['opacity-0']} { opacity: 0; }\n`;
+  css += `.${translation['opacity-25']} { opacity: 0.25; }\n`;
+  css += `.${translation['opacity-50']} { opacity: 0.5; }\n`;
+  css += `.${translation['opacity-75']} { opacity: 0.75; }\n`;
+  css += `.${translation['opacity-100']} { opacity: 1; }\n`;
+
+  // Z-index utilities
+  css += `.${translation['z-0']} { z-index: 0; }\n`;
+  css += `.${translation['z-10']} { z-index: 10; }\n`;
+  css += `.${translation['z-20']} { z-index: 20; }\n`;
+  css += `.${translation['z-30']} { z-index: 30; }\n`;
+  css += `.${translation['z-40']} { z-index: 40; }\n`;
+  css += `.${translation['z-50']} { z-index: 50; }\n`;
+
+  // Position utilities
+  css += `.${translation['static']} { position: static; }\n`;
+  css += `.${translation['relative']} { position: relative; }\n`;
+  css += `.${translation['absolute']} { position: absolute; }\n`;
+  css += `.${translation['fixed']} { position: fixed; }\n`;
+  css += `.${translation['sticky']} { position: sticky; }\n`;
+
+  // Justify content utilities
+  css += `.${translation['justify-start']} { justify-content: flex-start; }\n`;
+  css += `.${translation['justify-center']} { justify-content: center; }\n`;
+  css += `.${translation['justify-end']} { justify-content: flex-end; }\n`;
+  css += `.${translation['justify-between']} { justify-content: space-between; }\n`;
+  css += `.${translation['justify-around']} { justify-content: space-around; }\n`;
+  css += `.${translation['justify-evenly']} { justify-content: space-evenly; }\n`;
+
+  // Align items utilities
+  css += `.${translation['items-start']} { align-items: flex-start; }\n`;
+  css += `.${translation['items-center']} { align-items: center; }\n`;
+  css += `.${translation['items-end']} { align-items: flex-end; }\n`;
+  css += `.${translation['items-stretch']} { align-items: stretch; }\n`;
+  css += `.${translation['items-baseline']} { align-items: baseline; }\n`;
+
   return css;
 }
 
