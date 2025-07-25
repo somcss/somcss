@@ -202,6 +202,64 @@ function generateSomaliCss(translation) {
   css += `.${translation['items-stretch']} { align-items: stretch; }\n`;
   css += `.${translation['items-baseline']} { align-items: baseline; }\n`;
 
+  // Text decoration utilities
+  css += `.${translation['underline']} { text-decoration: underline; }\n`;
+  css += `.${translation['line-through']} { text-decoration: line-through; }\n`;
+  css += `.${translation['no-underline']} { text-decoration: none; }\n`;
+
+  // Font family utilities
+  css += `.${translation['sans']} { font-family: sans-serif; }\n`;
+  css += `.${translation['serif']} { font-family: serif; }\n`;
+  css += `.${translation['mono']} { font-family: monospace; }\n`;
+
+  // Box shadow utilities
+  css += `.${translation['shadow-sm']} { box-shadow: 0 1px 2px 0 rgba(0,0,0,0.05); }\n`;
+  css += `.${translation['shadow']} { box-shadow: 0 1px 3px 0 rgba(0,0,0,0.1), 0 1px 2px 0 rgba(0,0,0,0.06); }\n`;
+  css += `.${translation['shadow-md']} { box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1), 0 2px 4px -1px rgba(0,0,0,0.06); }\n`;
+  css += `.${translation['shadow-lg']} { box-shadow: 0 10px 15px -3px rgba(0,0,0,0.1), 0 4px 6px -2px rgba(0,0,0,0.05); }\n`;
+  css += `.${translation['shadow-none']} { box-shadow: none; }\n`;
+
+  // Border style utilities
+  css += `.${translation['border-solid']} { border-style: solid; }\n`;
+  css += `.${translation['border-dashed']} { border-style: dashed; }\n`;
+  css += `.${translation['border-dotted']} { border-style: dotted; }\n`;
+  css += `.${translation['border-none']} { border-style: none; }\n`;
+
+  // Border width utilities
+  css += `.${translation['border-0']} { border-width: 0; }\n`;
+  css += `.${translation['border-2']} { border-width: 2px; }\n`;
+  css += `.${translation['border-4']} { border-width: 4px; }\n`;
+  css += `.${translation['border-8']} { border-width: 8px; }\n`;
+
+  // Cursor utilities
+  css += `.${translation['pointer']} { cursor: pointer; }\n`;
+  css += `.${translation['not-allowed']} { cursor: not-allowed; }\n`;
+  css += `.${translation['wait']} { cursor: wait; }\n`;
+
+  // List style utilities
+  css += `.${translation['list-none']} { list-style-type: none; }\n`;
+  css += `.${translation['list-disc']} { list-style-type: disc; }\n`;
+  css += `.${translation['list-decimal']} { list-style-type: decimal; }\n`;
+
+  // Max width utilities
+  css += `.${translation['max-w-xs']} { max-width: 20rem; }\n`;
+  css += `.${translation['max-w-sm']} { max-width: 24rem; }\n`;
+  css += `.${translation['max-w-md']} { max-width: 28rem; }\n`;
+  css += `.${translation['max-w-lg']} { max-width: 32rem; }\n`;
+  css += `.${translation['max-w-xl']} { max-width: 36rem; }\n`;
+  css += `.${translation['max-w-full']} { max-width: 100%; }\n`;
+
+  // Min height utilities
+  css += `.${translation['min-h-0']} { min-height: 0; }\n`;
+  css += `.${translation['min-h-full']} { min-height: 100%; }\n`;
+  css += `.${translation['min-h-screen']} { min-height: 100vh; }\n`;
+
+  // Transition utilities
+  css += `.${translation['transition']} { transition-property: all; transition-duration: 150ms; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); }\n`;
+  css += `.${translation['transition-colors']} { transition-property: color, background-color, border-color, text-decoration-color, fill, stroke; transition-duration: 150ms; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); }\n`;
+  css += `.${translation['transition-opacity']} { transition-property: opacity; transition-duration: 150ms; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); }\n`;
+  css += `.${translation['transition-shadow']} { transition-property: box-shadow; transition-duration: 150ms; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); }\n`;
+
   return css;
 }
 

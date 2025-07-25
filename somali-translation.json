@@ -41,5 +41,53 @@
   "items-center": "walxo-bartamaha",
   "items-end": "walxo-dhammaad",
   "items-stretch": "walxo-fid",
-  "items-baseline": "walxo-xariiq"
+  "items-baseline": "walxo-xariiq",
+
+  "underline": "hoos-xariiq",
+  "line-through": "xariiq-dhex",
+  "no-underline": "xariiq-la'aan",
+
+  "sans": "qoys-sans",
+  "serif": "qoys-serif",
+  "mono": "qoys-mono",
+
+  "shadow-sm": "hoos-dhim",
+  "shadow": "hoos",
+  "shadow-md": "hoos-dhexdhexaad",
+  "shadow-lg": "hoos-weyn",
+  "shadow-none": "hoos-la'aan",
+
+  "border-solid": "xuduud-adag",
+  "border-dashed": "xuduud-dalool",
+  "border-dotted": "xuduud-dhibco",
+  "border-none": "xuduud-la'aan",
+
+  "border-0": "xuduud-0",
+  "border-2": "xuduud-2",
+  "border-4": "xuduud-4",
+  "border-8": "xuduud-8",
+
+  "pointer": "farta-tusa",
+  "not-allowed": "farta-mamnuuc",
+  "wait": "farta-sug",
+
+  "list-none": "liis-la'aan",
+  "list-disc": "liis-dalool",
+  "list-decimal": "liis-tiro",
+
+  "max-w-xs": "balac-ugu-yar",
+  "max-w-sm": "balac-yar",
+  "max-w-md": "balac-dhexdhexaad",
+  "max-w-lg": "balac-weyn",
+  "max-w-xl": "balac-ugu-weyn",
+  "max-w-full": "balac-buuxa",
+
+  "min-h-0": "dherer-ugu-yar",
+  "min-h-full": "dherer-buuxa",
+  "min-h-screen": "dherer-shaashad",
+
+  "transition": "beddelid",
+  "transition-colors": "beddelid-midab",
+  "transition-opacity": "beddelid-hufnaan",
+  "transition-shadow": "beddelid-hoos"
 } 
